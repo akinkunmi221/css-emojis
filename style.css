@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+
+body{
+    background-color: #24252a;
+    color: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+header li {
+    display: inline-block;
+    padding: 7px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+header li:nth-child(2) {
+    background-color: #0f00b3;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+div#logo {
+    font-family: Righteous;
+    font-size: larger;
+}
+
+#logo span {
+    color: rgb(203, 206, 21);
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+#happy {
+    width: 250px;
+    height: 250px;
+    background-color: #dfd114;
+    border-radius: 50%;
+}
+
+#happy #eyes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20% 15%;
+}
+
+
+#happy .eye {
+    background-color: #fff;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#happy .eyeball {
+    background-color: black;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#happy::after {
+    content: "";
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    top: 210px;
+    left: 15%;
+}
+
+#emotion {
+    width: 250px;
+    height: 250px;
+    background-color: #dfd114;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#emotion #eye2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20% 15%;
+}
+
+#emotion .eyeball2 {
+    background-color: black;
+    display: flex;
+    margin-top: 30px;
+    width: 50px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#emotion::after {
+    content: "";
+    background-color: black;
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    top: 230px;
+    left: 40%;
+}
+
+#suprised {
+    width: 250px;
+    height: 250px;
+    background-color: #dfd114;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#suprised #eyes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20% 15%;
+}
+
+
+#suprised .eye {
+    background-color: #fff;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#suprised .eyeball {
+    background-color: black;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#suprised::after {
+    content: "";
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 225px;
+    left: 71%;
+}
